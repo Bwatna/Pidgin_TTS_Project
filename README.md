@@ -10,6 +10,11 @@ Voices_ID Female:"eOHsvebhdtt0XFeHVMQY"
 - Adjusted `stability` and `similarity_boost` to slow down speech and enhance clarity.
 - Introduced a replacement dictionary in future versions to fix common mispronunciations.
 - Text inputs can be structured with informal spelling to guide pronunciation (e.g. *"dey"*, *"waka"*, *"abi"*).
+ Also slowed down speech slightly using:
+- Lower stability (`0.3`)
+- Slight punctuation spacing
+- Word breaks using commas and spaces
+
 ## Features
 -  Text input for Pidgin
 -  Voice dropdown
